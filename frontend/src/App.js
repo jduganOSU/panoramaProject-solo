@@ -12,7 +12,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/individual/:lat/:lng" element={<Individual />} />
-          <Route path="/generate" element={<CoordinateGenerationPage />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </BrowserRouter>  
